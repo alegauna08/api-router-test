@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-psycopg[binary]
+psycopg-binary==3.2.9
 python-dotenv
 pydantic
 rarfile
