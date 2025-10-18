@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+<<<<<<< HEAD
 *.py[codz]
 *$py.class
 
@@ -205,3 +206,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest
+.cache/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# Vercel
+.vercel/
+>>>>>>> b907653 (Initial commit: add project files)
