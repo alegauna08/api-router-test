@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 passwordDB = os.getenv("SUPABASE_PASSWORD")
-url = f"postgresql://postgres.nmoyxckrnpivqhbixoqt:{passwordDB}@aws-1-sa-east-1.pooler.supabase.com:5432/postgres"
+url = f"postgresql://postgres.nmoyxckrnpivqhbixoqt:{passwordDB}@aws-1-sa-east-1.pooler.supabase.com:6543/postgres"
 
 
 def getCursor() -> Generator[psycopg.Cursor, None, None]:
